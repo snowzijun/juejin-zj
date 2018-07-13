@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "flow": "flow; test $? -all"
   },
   "dependencies": {
     "antd-mobile-rn": "^2.2.0",
@@ -20,14 +21,15 @@
     "redux-saga": "^0.16.0"
   },
   "devDependencies": {
-    "babel-preset-react-native": "4.0.0",
     "babel-eslint": "^8.2.3",
     "babel-jest": "23.4.0",
+    "babel-preset-react-native": "4.0.0",
     "eslint": "^5.1.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.0",
     "eslint-plugin-react": "^7.10.0",
+    "flow-bin": "^0.76.0",
     "jest": "23.4.0",
     "react-test-renderer": "16.4.1"
   },

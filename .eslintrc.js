@@ -4,7 +4,9 @@ module.exports = {
         "commonjs": true,
         "es6": true
     },
-    "extends": "eslint:recommended",
+    "extends": [
+        "eslint:recommended"
+    ],
     "parserOptions": {
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
@@ -12,7 +14,7 @@ module.exports = {
             "arrowFunctions": true,
             "classes": true,
             "modules": true,
-            "defaultParams": true
+            "defaultParams": true   
         },
         "ecmaVersion": 2018,
         "sourceType": "module"
@@ -58,5 +60,6 @@ module.exports = {
         "no-array-constructor": 2,
         "no-class-assign": 2,
         "no-cond-assign": 2
+        
     }
-};
+}
