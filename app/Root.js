@@ -6,6 +6,18 @@ import App from './containers/App'
 const store = configureStore()
 
 /**
+ * store数据结构
+ * {
+ *   home:{
+ *      articleList:{
+ *          typeId1:[],
+ *          typeId2:[]
+ *       }
+ *   }
+ * }
+ */
+
+/**
  * 待添加redux方面的内容
  */
 export default class Root extends React.Component{

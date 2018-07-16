@@ -1,0 +1,9 @@
+//加载掘金的数据
+export const LOAD_JUEJIN_DATA='LOAD_JUEJIN_DATA'
+
+//请求文章数据
+export const REQUEST_ARTICLE_LIST='REQUEST_ARTICLE_LIST'
+//开始发送请求
+export const FETCH_ARTICLE_LIST='FETCH_aRTICLE_LIST'
+//接收文章数据
+export const RECEIVE_ARTICLE_LIST='RECEIVE_ARTICLE_LIST'
